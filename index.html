@@ -9,9 +9,20 @@
     <script src="js/app.js" defer></script>
 </head>
 <body>
-    <div class="p-3 bg-white shadow">
-        <h3>Лабораторна робота №1</h3>
-        <button class="btn btn-secondary">Використати API!</button>
-    </div>
+  <div class="d-flex flex-column min-vh-100">
+      <main class="m-4">
+        <section id="about">
+            <h1 class="border-bottom w-50 pb-2">Лабораторна робота №1</h1>
+            <p>Базова сторінка з HTML/CSS/JS.</p>
+        </section>
+    <section id="api">
+      <h2 class="mb-0 border-bottom w-25">REST API</h2>
+      <p>Приклад</p>
+      <button id="load" class="btn btn-dark">Завантажити користувача</button>
+      <pre id="output" class="rounded mt-3 p-2 bg-dark text-white rounded"></pre>
+    </section>
+  </main>
+    <footer class="text-center bg-dark text-white p-1 mt-auto">©2025, Хімій Денис</footer>
+  </div>
 </body>
 </html>
