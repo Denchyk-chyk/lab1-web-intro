@@ -1,7 +1,28 @@
-body {
-    background: #fafafa;
+html {
+    scroll-behavior: smooth;
 }
 
-#output {
+section {
+    padding-top: 4rem;
+}
+
+section:not(:first-child) {
+    margin-bottom: 50rem;
+}
+
+section:first-child {
+    margin-bottom: -3rem;
+}
+
+pre {
     display: none;
+}
+
+#up {
+    bottom: 20px;
+    right: 20px;
+}
+
+#up > b {
+    top: 0.1rem;
 }
